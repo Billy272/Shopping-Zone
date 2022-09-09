@@ -71,3 +71,49 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+.container{
+    max-width: 1024px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.grid{ 
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section{
+    padding: 4.5rem 0 2rem;
+}
+
+.section_title{
+    font-size: var(--h1-font-size);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.main{
+    overflow: hidden;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+    transition: .4s;
+}
+.nav{
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
