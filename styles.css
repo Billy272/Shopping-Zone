@@ -261,3 +261,15 @@ img{
 .new__link:hover i{
     transform: translatex(.25rem);
 }
+
+.collection{
+    background-color: var(--bg-color-light);
+    overflow: hidden;
+}
+
+.collection__container{
+    position: relative;
+    height: 571px;
+    display:grid;
+    justify-items: center;
+}
