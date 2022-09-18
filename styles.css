@@ -312,3 +312,20 @@ img{
     font-size: var(--h3-font-size);
     margin: .75rem;
 }
+.products__price{
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+}
+
+.swipper-button-prev::after, .swipper-button-next::after{
+    content: '';
+}
+
+.swipper-button-prev, .swipper-button-next{
+    top: initial;
+    bottom: 0;
+    width: initial;
+    height: initial;
+    font-size: 1.5rem;
+    color: var(--title-color);
+}
