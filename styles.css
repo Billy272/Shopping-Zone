@@ -329,3 +329,11 @@ img{
     font-size: 1.5rem;
     color: var(--title-color);
 }
+
+.swipper-button-prev{
+    left: calc(50% - 2rem);
+}
+
+.swipper-button-next{
+    right: calc(50% - 3rem);
+}
